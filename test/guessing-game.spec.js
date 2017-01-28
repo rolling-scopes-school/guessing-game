@@ -20,7 +20,7 @@ describe('#guess', () => {
         game.greater();
         result = game.guess(); // 442
         game.lower();
-        result = game.guess(); // 411
+        result = game.guess(); // 410
         game.lower();
         result = game.guess(); // 395
         game.greater();

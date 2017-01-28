@@ -1,32 +1,26 @@
 class GuessingGame {
     constructor() {
-      this.array = [];
-      this.tmpPos = 0;
-      this.currentPos = 0;
+      this.min = 0;
+      this.max = 0;
+      this.current = 0;
     }
 
     setRange(min, max) {
-      do {
-        this.array.push(min); // Fill array
-        min++;
-      } while (min != max);
-      this.currentPos = (this.array.length - 1);
-      this.tmpPos = this.currentPos / 2 ^ 0;
+      this.min = 1;
+      this.max = max;
     }
 
     guess() {
-      this.currentPos = this.currentPos - this.tmpPos;
-      return this.currentPos;
+      this.current = (this.min + this.max) / 2;
+      return Math.ceil(this.current); //253
     }
 
     lower() {
-      if (this.tmpPos < 0) this.tmpPos = -this.tmpPos;
-      this.tmpPos = this.CurrentBot / 2 ^ 0;
+      this.max = this.current; //410
     }
 
     greater() {
-      if (this.tmpPos > 0) this.tmpPos = -this.tmpPos;
-      this.tmpPos = this.CurrentTop / 2 ^ 0;
+      this.min = this.current; //379
     }
 }
 
