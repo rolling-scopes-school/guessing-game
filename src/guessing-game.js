@@ -6,21 +6,21 @@ class GuessingGame {
     }
 
     setRange(min, max) {
-      this.min = 0;
+	  this.min = min;
       this.max = max;
     }
 
     guess() {
       this.current = Math.ceil((this.min + this.max) / 2);
-      return this.current; //253
+      return this.current;
     }
 
     lower() {
-      this.max = this.current; //410
+      this.max = this.current;
     }
 
     greater() {
-      this.min = this.current; //379
+      this.min = this.current;
     }
 }
 

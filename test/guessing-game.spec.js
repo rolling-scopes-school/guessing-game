@@ -8,29 +8,29 @@ describe('#guess', () => {
         const game = new GuessingGame();
         game.setRange(0, 4048)
 
-        let result = game.guess(); // 2024
+        let result = game.guess();
         game.lower();
-        result = game.guess();  // 1012
+        result = game.guess();
         game.lower();
-        result = game.guess(); // 506
+        result = game.guess();
         game.lower();
-        result = game.guess(); // 253
+        result = game.guess();
         game.greater();
-        result = game.guess(); // 380
+        result = game.guess();
         game.greater();
-        result = game.guess(); // 442
+        result = game.guess();
         game.lower();
-        result = game.guess(); // 410
+        result = game.guess();
         game.lower();
-        result = game.guess(); // 395
+        result = game.guess();
         game.greater();
-        result = game.guess(); // 403
+        result = game.guess();
         game.greater();
-        result = game.guess(); // 407
+        result = game.guess();
         game.greater();
-        result = game.guess(); // 409
+        result = game.guess();
         game.lower();
-        result = game.guess(); // 408
+        result = game.guess();
 
         expect(result).to.equal(number);
     });
