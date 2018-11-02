@@ -4,7 +4,7 @@ class GuessingGame {
     setRange(min, max) {
          this.min=min;
          this.max=max;
-         var inl = 0;
+         
          this.a=[];
          for (var i=0; i<this.max-this.min+1; i++) {
              this.a[i]=this.min+i;
