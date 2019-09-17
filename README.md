@@ -24,22 +24,20 @@ this method is called if prev call of `guess()` returned number which is lower t
 Your implementation should use [binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm) under the hood to pass all tests
 
 ### Prerequisites
-* Install [nodejs](https://nodejs.org/en/) (>= v6.9.4)
-* open bash in this folder
-* `npm install`
-
-### Run tests
-```sh
-npm test
-```
-
-### Run in browser
-```sh
-npm start
-```
-
-open http://localhost:8080
+1. Install [Node.js](https://nodejs.org/en/download/)   
+2. Fork this repository: https://github.com/rolling-scopes-school/guessing-game/ 
+3. Clone your newly created repo: https://github.com/<%your_github_username%>/guessing-game/  
+4. Go to folder `guessing-game`  
+5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
+6. Run `npm test` in command line or you can run tests in browser with `npm start` and open http://localhost:8080
+7. You will see the number of passing and failing tests. 100% of passing tests is equal to 100p in score  
 
 ---
 
-© [R1ZZU](https://github.com/R1ZZU)
+### Submit to [rs app](https://app.rs.school)
+1.
+2.
+...
+n.
+
+© [lesnitsky](https://github.com/lesnitsky)
