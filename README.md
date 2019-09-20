@@ -25,7 +25,7 @@ Your implementation should use [binary search algorithm](https://en.wikipedia.or
 
 ### Prerequisites
 1. Install [Node.js](https://nodejs.org/en/download/)   
-2. Fork this repository: https://github.com/rolling-scopes-school/guessing-game/ 
+2. Fork this repository: https://github.com/rolling-scopes-school/guessing-game/
 3. Clone your newly created repo: https://github.com/<%your_github_username%>/guessing-game/  
 4. Go to folder `guessing-game`  
 5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
@@ -35,9 +35,9 @@ Your implementation should use [binary search algorithm](https://en.wikipedia.or
 ---
 
 ### Submit to [rs app](https://app.rs.school)
-1.
-2.
-...
-n.
+1. Open [rs app](https://app.rs.school) and login
+2. Go to [submit task page](https://app.rs.school/course/submit-task?course=rs-2019-q3)
+3. Select your task (brackets)
+4. Press the submit button and enjoy
 
 © [lesnitsky](https://github.com/lesnitsky)
