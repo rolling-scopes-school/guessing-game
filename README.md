@@ -37,7 +37,7 @@ Your implementation should use [binary search algorithm](https://en.wikipedia.or
 ### Submit to [rs app](https://app.rs.school)
 1. Open [rs app](https://app.rs.school) and login
 2. Go to [submit task page](https://app.rs.school/course/submit-task?course=rs-2019-q3)
-3. Select your task (brackets)
+3. Select your task (guessing-game)
 4. Press the submit button and enjoy
 
 © [lesnitsky](https://github.com/lesnitsky)
