@@ -1,8 +1,0 @@
-{
-  "GuessingGame": {
-    "weight": 100,
-    "suitesWeights": {
-      "#guess": 100
-    }
-  }
-}
