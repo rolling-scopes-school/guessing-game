@@ -10,7 +10,7 @@
     "author": "",
     "license": "ISC",
     "engines": {
-      "node": "<=10"
+        "node": "<=14"
     },
     "devDependencies": {
         "chai": "^3.5.0",
