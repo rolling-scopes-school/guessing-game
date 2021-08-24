@@ -12,7 +12,7 @@ class GuessingGame {
     }
 
     guess() {
-        let middle =  Math.floor( ( this.left + this.right ) / 2 ) + this.left;
+        let middle =  Math.round( ( this.left + this.right ) / 2 );
         this.middle  = middle
         return middle
     }
