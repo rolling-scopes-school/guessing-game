@@ -3,7 +3,6 @@ class GuessingGame {
         this.left = null;
         this.rigth = null;
         this.middle = null;
-
     }
 
     setRange(min, max) {
@@ -12,9 +11,9 @@ class GuessingGame {
     }
 
     guess() {
-        let middle =  Math.round( ( this.left + this.right ) / 2 );
-        this.middle  = middle
-        return middle
+        let middle =  Math.ceil( ( this.left + this.right ) / 2 );
+        this.middle  = middle;
+        return middle;
     }
 
     lower() {
