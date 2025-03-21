@@ -1,27 +1,26 @@
 {
-    "name": "guessing-game",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "test": "mocha -r ./test/setup-mocha.js",
-        "start": "webpack-dev-server",
-        "postinstall": "node postinstall.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "engines": {
-        "node": "<=14"
-    },
-    "devDependencies": {
-        "chai": "^3.5.0",
-        "mocha": "^3.0.2",
-        "sinon": "^1.17.5",
-        "sinon-chai": "^2.8.0",
-        "webpack": "^1.13.1",
-        "webpack-dev-server": "^1.14.1"
-    },
-    "dependencies": {
-        "colors": "^1.4.0",
-        "semver": "^6.3.0"
-    }
+  "name": "guessing-game",
+  "version": "1.0.0",
+  "description": "Guessing Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "node node_modules/eslint/bin/eslint.js ./src",
+    "lint:fix": "node node_modules/eslint/bin/eslint.js ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/guessing-game.git"
+  },
+  "author": "https://github.com/lesnitsky",
+  "license": "MIT",
+  "homepage": "https://github.com/rolling-scopes-school/guessing-game",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "mocha": "^10.8.2",
+    "prettier": "^3.5.3"
+  }
 }
